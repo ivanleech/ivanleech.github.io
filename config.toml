@@ -1,23 +1,19 @@
 # Base information
-baseURL = "https://ivanchlee.github.io"
+baseURL = "https://ivanlee.github.io"
 languageCode = "en-gb"
 title = "Ivan Lee"
 googleAnalytics = ""
 
 # Remove this when using normally
-#themesDir = "../../" 
-#theme="hugo-developer-portfolio"
+themesDir = "../" 
+theme="hugo-developer-portfolio"
 # 
-[module]
-  [[module.imports]]
-    path = "https://github.com/ivanchlee/ivanchlee.github.io"
+#[module]
+#  [[module.imports]]
+#    path = "github.com/ivanchlee/hugo-developer-portfolio"
 
 # Plugins
 [params.plugins]
-
-  gitRepo =  "https://github.com/ivanchlee/ivanchlee.github.io"
-  # Default branch of your Git repo
-  gitBranch = main
 
   # CSS Plugins
   [[params.plugins.css]]
@@ -59,6 +55,7 @@ home = "Home"
 # Meta data
 description = "The website of Ivan Lee, Machine Learning Engineer"
 author = "Ivan Lee"
+
 
   [params.contact]
   enable = true
