@@ -1,5 +1,5 @@
 # Base information
-baseURL = "https://ivanchlee.github.io"
+baseURL = "https://ivanchlee.github.io/"
 languageCode = "en-gb"
 title = "Ivan Lee"
 googleAnalytics = ""
