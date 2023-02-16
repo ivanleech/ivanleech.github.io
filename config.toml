@@ -5,12 +5,12 @@ title = "Ivan Lee"
 googleAnalytics = ""
 
 # Remove this when using normally
-#themesDir = "../" 
-#theme="hugo-developer-portfolio"
+themesDir = "../" 
+theme="hugo-developer-portfolio"
 # 
-[module]
-  [[module.imports]]
-    path = "https://github.com/ivanchlee/ivanchlee.github.io"
+#[module]
+#  [[module.imports]]
+#    path = "https://github.com/ivanchlee/ivanchlee.github.io"
 
 # Plugins
 [params.plugins]
