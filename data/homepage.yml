@@ -61,10 +61,12 @@ experience:
       title: Policy Planning Intern
       company: National Environmental Agency
       duration: 2014
+      description: This is description 
     - logo: https://www.e-spincorp.com/wp-content/uploads/2018/05/logo-dso-espincorp.png
       title: Engineering Intern
       company: DSO National Laboratories
       duration: 2016
+      description: This is description2
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
       title: SEED Programme
       company: DBS Bank
