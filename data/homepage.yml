@@ -61,30 +61,37 @@ experience:
       title: Policy Planning Intern
       company: National Environmental Agency
       duration: 2014
+      description: bye
     - logo: https://www.e-spincorp.com/wp-content/uploads/2018/05/logo-dso-espincorp.png
       title: Engineering Intern
       company: DSO National Laboratories
       duration: 2016
+      description: hihi
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
       title: SEED Programme
       company: DBS Bank
       duration: July 2017 - July 2018
+      description: •	Managed and implemented transition of services to vSphere Integrated Containers to achieve microservice architecture 
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
       title: DevOps Engineer
       company: DBS Bank
       duration: July 2018 - Feb 2020
+      description: •	Led trading platform migration from On-prem Solaris servers to Linux servers on Virtual Private Cloud, achieving significant cost savings by over 65%
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
       title: DevOps/ Project Manager
       company: DBS Bank
       duration: Feb 2020 - Aug 2021
+      description: •	Successfully implemented the migration of Front Arena upgrade project which improves performance and include critical business features by collaborating with vendor, tech, and business stakeholders as scrum master
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
       title: Software Engineer
       company: DBS Bank
       duration: Aug 2021 - Jan 2023
+      description: •	Designed MVP model to derive sentiments from credit news emails of distressed bond issuers by performing Named Entity Recognition, Disambiguation and using finBERT to generate data as inputs for downstream algo trading pricing
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
       title: Machine Learning Engineer
       company: DBS Bank
       duration: Jan 2023 - Present
+      description: Design batch jobs to be run on Spark, YARN through Kubernetes and CICD flow using ARGO
 # hackathons:
 #   enable: true
 #   item:
