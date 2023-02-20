@@ -1,7 +1,8 @@
-[![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)](https://github.com/ivanchlee)
+[![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)](https://github.com/ivanleech)
 
 <h1 align="center">Hi 👋, I'm Ivan</h1>
 <h3 align="center">Machine Learning Engineer in the finance space</h3>
+[View my website @ https://ivanleech.github.io/](https://ivanleech.github.io/)
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 
 
