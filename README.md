@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Ivan</h1>
 <h3 align="center">Machine Learning Engineer in the finance space</h3>
-[View my website](https://ivanleech.github.io/)
+[I'm an inline-style link](https://www.google.com)
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 
 
