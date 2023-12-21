@@ -4,7 +4,7 @@ lastmod: 2019-10-26T15:26:15Z
 publishdate: 2018-11-23T15:26:15Z
 author: Ivan 
 title: Ivan's Website
-description: I'm Machine Learning Engineer in the finance space
+description: I'm a Machine Learning Engineer
 images:
 - home-cover.png
 ---
