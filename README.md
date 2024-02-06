@@ -7,9 +7,10 @@
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 
 
-- 🌱 I’m currently learning **Quant, Algo Trading, ib_insync**
+- 🌱 I’m currently learning **Large Language Models, Retrieval Augmented Genration, Tensorflow**
 
 - 💬 Ask me about **Kubernetes, Machine Learning, System Design, Software Engineering**
+
 
 
 <p align="left">
