@@ -40,10 +40,10 @@ skill:
       logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg
       description: Led project to decommision On-prem Solaris servers and migrated to Linux with the use of docker containerization for batch reporting and to host UAT environments
     - title: Data Science
-      logo: https://camo.githubusercontent.com/b861b92581ad5a7b81147073d729eda727f71985d72f3dd198e0afd792a6f9de/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f74656e736f72666c6f772f74656e736f72666c6f772d69636f6e2e737667
+      logo: https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg
       description: Piloted a model to obtain sentiment analysis, topic modelling of Credit Trading News that could be used as inputs to downstream algo trading model 
     - title: Machine Learning
-      logo: https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg
+      logo: https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg
       description: Worked on projects related to NLP, Recommendation systems, Applied Machine Learning during my masters at SMU. Favourite equation is the Markov Decision Process about how we make optimal decisions.
     - title: Kafka
       logo: https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg
