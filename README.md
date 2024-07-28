@@ -1,15 +1,15 @@
 [![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)](https://github.com/ivanleech)
 
 <h1 align="center">Hi 👋, I'm Ivan</h1>
-<h3 align="center">Machine Learning Engineer</h3>
+<h3 align="center">Senior Developer in Quant Data team</h3>
 <h3 align="center">https://ivanleech.github.io/</h3>
 <br>
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 
 
-- 🌱 I’m currently learning **Large Language Models, Retrieval Augmented Genration, Tensorflow**
+- 🌱 I’m currently learning **Web3, Quant, Financial Engineering**
 
-- 💬 Ask me about **Kubernetes, Machine Learning, System Design, Software Engineering**
+- 💬 Ask me about **Finance x Tech. Was a machine learning engineer. Beefing up my finance knowledge in the quant data team**
 
 
 
