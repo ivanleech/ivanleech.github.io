@@ -7,15 +7,7 @@ authorImage : "images/about/profile.png"
 ---
 
 Hi. I'm Ivan! Welcome to my blog. 
-<!-- I am a Software Engineer with a Masters of IT in Business.
-Generally interested in **Software Engineering, Data Science, writing clean code, sytems design**, and how technology helps to improve the way we do things.
 
-I started off my career in a financial institution as a DevOps Engineer supporting a Trading Application. -->
+Senior Developer in Quant Data team. Enjoys challenges in the intersection of tech and finance. Has experience architecting, designing and delivering technology solutions for trading and tech teams. Proficient in **Python, SQL, NoSQL, Redis, Jenkins, Git, Docker, Kubernetes, Airflow, CI/CD pipelines and machine learning**. Certified Scrum Master with experience leading and working with cross-functional teams.
 
-
-<!-- I like doing personal projects, which you will find in the portfolio page of this website. 
-My specialties can be found on the homepage, of which most are Data Science, Web Development. -->
-
-Experience in architecting, automating, and optimizing production-ready services. Proficient in developing, supporting, and delivering technology solutions for Credit Derivative trading applications with front-to-back-office functionalities. Strong background in **Linux, Python, Java, SQL, NoSQL, Redis, Jenkins, Git, Docker, Cloud Computing, CI/CD pipelines** and **Machine Learning**. **Certified Scrum Master** with experience leading and collaborating with cross-functional teams. Interested in finance and technology.
-
-Currently a Machine Learning Engineer. Previously a DevOps Engineer, and a Software Engineer.
+Currently a Quant Data Developer in Trading team. Previously did some Machine Learning and Devops.s

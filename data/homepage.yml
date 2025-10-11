@@ -8,7 +8,7 @@ social:
   gitlab: ""
   facebook: ""
   instagram: ""
-  gmail: ivanchanghsienlee
+  gmail: ivanleechanghsien
 about:
   enable: true
   # content: Machine Learning Engineer
@@ -20,71 +20,81 @@ skill:
   item:
     - title: Python
       logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg
-      description: Python Veteran. Managed python2 to python3 upgrade for Trading Application. Experienced in Object Oriented Programming and familiar with SOLID principles
-    - title: Java
-      logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg
-      description: Created Microservice application and applied design patterns when building proprietary trading application. Builder and Factory
+      description: Proficient in Python, from building ETL pipelines, grabbing market/trade data from exchagnes, processing risk/PnL booking system to web development with FastAPI
+    - title: Pandas
+      logo: https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg
+      description: Used Pandas extensively for data manipulation utilizing vectorised operations, cleaning and analysis of large datasets. Familiar with time series data and financial data analysis.
+    # - title: Java
+    #   logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg
+    #   description: Created Microservice application and applied design patterns when building proprietary trading application. Builder and Factory
     - title: Linux
       logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg
-      description: Used Linux and Bash widely when migrating from Solaris to Linux, and during my times as DevOps engineer providing L2 Support for Credit Trading Desk
-    - title: MySQL
-      logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg
-      description: Used SQL frequently when generating finance(PL, PL Explain) and risk(IR Delta, VaR, JTD) reports, doing joins across tables for aggregation
+      description: Used Linux/Bash widely for basic scripting as DevOps engineer providing L2 Support for Fixed Income Credit Trading Desk
+    - title: ClickHouse
+      logo: https://marketplace-assets.digitalocean.com/logos/clickhouse.svg
+      description: Used as OLAP. Manage over 300TB of data with Devops engineer. Use simple SQL from day to day queries to complex queries on Grafana for visualization and analysis. 
     - title: MongoDB
       logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg
-      description: Familiar with qurerying and using aggregations for retrieve documents when designing proprietary trading application 
+      description: Used as OLTP database to store unstructured data, and to store trade and market data for low latency retrieval.
     - title: Jenkins
       logo: https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg
-      description: Used Groovy and Jenkinsfile for CICD of docker images, and also to create microservices on Redhat Openshift
+      description: For CICD deployment of microservices and ETL pipelines. Familiar with creating declarative pipelines as code using Jenkinsfile
     - title: Docker
       logo: https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg
       description: Led project to decommision On-prem Solaris servers and migrated to Linux with the use of docker containerization for batch reporting and to host UAT environments
-    - title: Data Science
-      logo: https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg
-      description: Piloted a model to obtain sentiment analysis, topic modelling of Credit Trading News that could be used as inputs to downstream algo trading model 
-    - title: Machine Learning
-      logo: https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg
-      description: Worked on projects related to NLP, Recommendation systems, Applied Machine Learning during my masters at SMU. Favourite equation is the Markov Decision Process about how we make optimal decisions.
+    # - title: Data Science
+    #   logo: https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg
+    #   description: Piloted a model to obtain sentiment analysis, topic modelling of Credit Trading News that could be used as inputs to downstream algo trading model 
+    # - title: Machine Learning
+    #   logo: https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg
+    #   description: Worked on projects related to NLP, Recommendation systems, Applied Machine Learning during my masters at SMU. Favourite equation is the Markov Decision Process about how we make optimal decisions.
     - title: Kafka
       logo: https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg
-      description: Familiar with setting up Kafka on Springboot both as publisher and consumer for streaming data
-    - title: Spring Boot
-      logo: https://www.vectorlogo.zone/logos/springio/springio-icon.svg
-      description: Used Spring Boot heavily to host microservies for Propreitary application. Adopted factory design and builder design patterns when designing REST/CRUD applications
+      description: Sinks realtime data from kafka to clickhouse for low latency retrieval of market and trade data. Used kafka both as message queue and streaming platform
+    # - title: Spring Boot
+    #   logo: https://www.vectorlogo.zone/logos/springio/springio-icon.svg
+    #   description: Used Spring Boot heavily to host microservies for Propreitary application. Adopted factory design and builder design patterns when designing REST/CRUD applications
     - title: Kubernetes
       logo: https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg
-      description: Adopting use of Kubernetes in distributed computing to host Spark, YARN for heavy computation of training machine learning models
+      description: Used Kubernetes/ArgoCD gitops in distributed computing to host Spark, YARN for heavy computation of training machine learning models
+    - title: Grafana
+      logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Grafana_icon.svg/1969px-Grafana_icon.svg.png
+      description: Created meaningful dashboards and focus on creating actionable alerts instead of noise. reducing time to detect and response to incidents
 experience:
   enable: true
   item:
-    - logo: https://www.nea.gov.sg/images/default-source/about-us/nea-logo.png
-      title: Policy Planning Intern
-      company: National Environmental Agency
-      duration: 2014
+    # - logo: https://www.nea.gov.sg/images/default-source/about-us/nea-logo.png
+    #   title: Policy Planning Intern
+    #   company: National Environmental Agency
+    #   duration: 2014
     - logo: https://www.e-spincorp.com/wp-content/uploads/2018/05/logo-dso-espincorp.png
       title: Engineering Intern
       company: DSO National Laboratories
       duration: 2016
+    # - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
+    #   title: SEED Programme
+    #   company: DBS Bank
+    #   duration: July 2017 - July 2018
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
-      title: SEED Programme
+      title: Fixed Income DevOps Engineer
       company: DBS Bank
-      duration: July 2017 - July 2018
-    - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
-      title: DevOps Engineer
-      company: DBS Bank
-      duration: July 2018 - Feb 2020
-    - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
-      title: DevOps/ Project Manager
-      company: DBS Bank
-      duration: Feb 2020 - Aug 2021
-    - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
-      title: Software Engineer
-      company: DBS Bank
-      duration: Aug 2021 - Dec 2022
+      duration: July 2017 - Feb 2020
+    # - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
+    #   title: DevOps/ Project Manager
+    #   company: DBS Bank
+    #   duration: Feb 2020 - Aug 2021
+    # - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
+    #   title: Software Engineer
+    #   company: DBS Bank
+    #   duration: Aug 2021 - Dec 2022
     - logo: https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg
       title: Machine Learning Engineer
       company: DBS Bank
-      duration: Dec 2022 - Present
+      duration: Aug 2021 - May 2024
+    - logo: https://iconlogovector.com/uploads/images/2025/10/lg-68e052c831c46-Crypto-com.webp
+      title: Quant Data Developer
+      company: Crypto.com
+      duration: May 2024 - Present
 # hackathons:
 #   enable: true
 #   item:
@@ -102,7 +112,7 @@ certifications:
       image: https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png
       url: https://aws.amazon.com/certification/certified-solutions-architect-associate/
     - title: Scrum Master
-      image: https://www.scrumalliance.org/_scrum/images/badges300x300/active/SA_badge_csm.png
+      image: https://www.scrumalliance.org/images/badgelibraryprovider/default-album/sa-csm-300.png
       url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster
 education:
   enable: true
@@ -118,7 +128,7 @@ education:
     - title: Engineering Product Development (Bachelors of Engineering)
       year: 2014 - 2017
       academy: Singapore University of Technology and Design
-      image: https://www.sla.gov.sg/qql/slot/u148/News%20&%20Media/Blog/Jobs%20at%20SUTD/stud_logo_large.jpg
+      image: https://jmeducationgroup.com/wp-content/uploads/2024/07/SUTD-Logo.png
     - title: Master of IT in Business (MITB)
       year: 2020 - 2022
       academy: Singapore Management University

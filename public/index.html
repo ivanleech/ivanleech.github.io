@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>Ivan Lee</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="I&#39;m a Machine Learning Engineer">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Ivan Lee">
+  <meta name="generator" content="Hugo 0.151.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Ivan Lee" />
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li class="uk-active "><a style="font-size: 18px; text-transform: none"
+                        href="http://localhost:1313/"> Home </a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/contact">Contact</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li class="uk-active"><a style="font-size: 18px" href="http://localhost:1313/"> Home </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/contact">Contact</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Hexagon Stylesheet -->
+
+<link rel="stylesheet" href="/css/hexagon.min.css">
+
+<!-- Index -->
+
+<link rel="stylesheet" href="/css/index.min.css">
+
+<section>
+    <div class="uk-container uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+        <h1 class="uk-text-center uk-heading-large">Hi! I’m Ivan</h1>
+    </div>
+
+
+</section>
+
+<div class="uk-text-center uk-margin-xlarge-bottom uk-margin-xlarge-top">
+    <ul id="links" class="icons">
+        
+        
+         
+        <li><a href="https://www.linkedin.com/in/ivanleech">
+            <img class="contain" src="https://cdn.svgporn.com/logos/linkedin-icon.svg" alt="LinkedIn" loading="lazy"> </a></li>
+          
+        <li><a href="https://github.com/ivanleech"> <img
+                    class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a></li>
+           
+        <li><a href="mailto:ivanleechanghsien@gmail.com" > <img
+                    class="contain" src="https://cdn.svgporn.com/logos/google-gmail.svg" alt="Gmail" loading="lazy"></a></li>
+          
+    </ul>
+
+
+</div>
+
+
+
+
+
+<section class="uk-margin-large-top">
+    <div class="uk-container">
+        <div class="uk-text-center">
+            
+            <p class="uk-text-lead"></p>
+            
+            <a class="uk-button uk-button-text" href="http://localhost:1313/about">Find out more</a>
+            
+            
+        </div>
+    </div>
+
+        <div class="container">
+            <h1>
+              
+              <span class="txt-type" data-wait="2000" data-words='["Welcome!", "(づ｡◕‿‿◕｡)づ", "I write code", "欢迎大家浏览"]'></span>
+            </h1>
+          </div>
+          
+          <script >
+            class TypeWriter {
+                constructor(txtElement, words, wait = 3000) {
+                  this.txtElement = txtElement;
+                  this.words = words;
+                  this.txt = "";
+                  this.wordIndex = 0;
+                  this.wait = parseInt(wait, 10);
+                  this.type();
+                  this.isDeleting = false;
+                }
+              
+                type() {
+                  
+                  const current = this.wordIndex % this.words.length;
+                  
+                  const fullTxt = this.words[current];
+              
+                  
+                  if (this.isDeleting) {
+                    
+                    this.txt = fullTxt.substring(0, this.txt.length - 1);
+                  } else {
+                    
+                    this.txt = fullTxt.substring(0, this.txt.length + 1);
+                  }
+              
+                  
+                  this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+              
+                  
+                  let typeSpeed = 50;
+              
+                  if (this.isDeleting) {
+                    
+                    typeSpeed /= 2;
+                  }
+              
+                  
+                  if (!this.isDeleting && this.txt === fullTxt) {
+                    
+                    typeSpeed = this.wait;
+                    
+                    this.isDeleting = true;
+                  } else if (this.isDeleting && this.txt === "") {
+                    this.isDeleting = false;
+                    
+                    this.wordIndex++;
+                    
+                    typeSpeed = 800;
+                  }
+              
+                  setTimeout(() => this.type(), typeSpeed);
+                }
+              }
+              
+              
+              document.addEventListener("DOMContentLoaded", init);
+              
+              
+              function init() {
+                const txtElement = document.querySelector(".txt-type");
+                const words = JSON.parse(txtElement.getAttribute("data-words"));
+                const wait = txtElement.getAttribute("data-wait");
+                
+                new TypeWriter(txtElement, words, wait);
+              }
+              </script>
+ 
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="modal_Python" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Python</h2>
+        </div>
+        <p>Proficient in Python, from building ETL pipelines, grabbing market/trade data from exchagnes, processing risk/PnL booking system to web development with FastAPI</p>
+    </div>
+</div>
+
+<div id="modal_Pandas" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Pandas</h2>
+        </div>
+        <p>Used Pandas extensively for data manipulation utilizing vectorised operations, cleaning and analysis of large datasets. Familiar with time series data and financial data analysis.</p>
+    </div>
+</div>
+
+<div id="modal_Linux" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Linux</h2>
+        </div>
+        <p>Used Linux/Bash widely for basic scripting as DevOps engineer providing L2 Support for Fixed Income Credit Trading Desk</p>
+    </div>
+</div>
+
+<div id="modal_ClickHouse" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">ClickHouse</h2>
+        </div>
+        <p>Used as OLAP. Manage over 300TB of data with Devops engineer. Use simple SQL from day to day queries to complex queries on Grafana for visualization and analysis.</p>
+    </div>
+</div>
+
+<div id="modal_MongoDB" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">MongoDB</h2>
+        </div>
+        <p>Used as OLTP database to store unstructured data, and to store trade and market data for low latency retrieval.</p>
+    </div>
+</div>
+
+<div id="modal_Jenkins" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Jenkins</h2>
+        </div>
+        <p>For CICD deployment of microservices and ETL pipelines. Familiar with creating declarative pipelines as code using Jenkinsfile</p>
+    </div>
+</div>
+
+<div id="modal_Docker" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Docker</h2>
+        </div>
+        <p>Led project to decommision On-prem Solaris servers and migrated to Linux with the use of docker containerization for batch reporting and to host UAT environments</p>
+    </div>
+</div>
+
+<div id="modal_Kafka" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Kafka</h2>
+        </div>
+        <p>Sinks realtime data from kafka to clickhouse for low latency retrieval of market and trade data. Used kafka both as message queue and streaming platform</p>
+    </div>
+</div>
+
+<div id="modal_Kubernetes" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Kubernetes</h2>
+        </div>
+        <p>Used Kubernetes/ArgoCD gitops in distributed computing to host Spark, YARN for heavy computation of training machine learning models</p>
+    </div>
+</div>
+
+<div id="modal_Grafana" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Grafana</h2>
+        </div>
+        <p>Created meaningful dashboards and focus on creating actionable alerts instead of noise. reducing time to detect and response to incidents</p>
+    </div>
+</div>
+
+
+<section class="uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to find out more</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+            uk-grid>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Python">
+                <h4>Python</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Pandas">
+                <h4>Pandas</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Linux">
+                <h4>Linux</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://marketplace-assets.digitalocean.com/logos/clickhouse.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_ClickHouse">
+                <h4>ClickHouse</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_MongoDB">
+                <h4>MongoDB</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Jenkins">
+                <h4>Jenkins</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Docker">
+                <h4>Docker</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Kafka">
+                <h4>Kafka</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Kubernetes">
+                <h4>Kubernetes</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Grafana_icon.svg/1969px-Grafana_icon.svg.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Grafana">
+                <h4>Grafana</h4>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
+
+        <div class="uk-grid-small uk-child-width-1-4@s uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 10px; padding-right: 10px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://www.e-spincorp.com/wp-content/uploads/2018/05/logo-dso-espincorp.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Engineering Intern</h3>
+                        </div>
+                        <p style="height: 4em">DSO National Laboratories</p>
+                        <p>2016</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Fixed Income DevOps Engineer</h3>
+                        </div>
+                        <p style="height: 4em">DBS Bank</p>
+                        <p>July 2017 - Feb 2020</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://1000logos.net/wp-content/uploads/2020/04/DBS-logo.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Machine Learning Engineer</h3>
+                        </div>
+                        <p style="height: 4em">DBS Bank</p>
+                        <p>Aug 2021 - May 2024</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://iconlogovector.com/uploads/images/2025/10/lg-68e052c831c46-Crypto-com.webp" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Quant Data Developer</h3>
+                        </div>
+                        <p style="height: 4em">Crypto.com</p>
+                        <p>May 2024 - Present</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-top uk-margin-medium-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Certifications</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to view the course info</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+             uk-grid >
+            
+            <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" class="imagemargin">
+                <img class="contain certs" src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png" alt="AWS Cloud Practitioner" loading="lazy" style="cursor: pointer">
+                AWS Cloud Practitioner
+            </a>
+
+            
+            <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" class="imagemargin">
+                <img class="contain certs" src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png" alt="AWS Solutions Architect Associate" loading="lazy" style="cursor: pointer">
+                AWS Solutions Architect Associate
+            </a>
+
+            
+            <a href="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" class="imagemargin">
+                <img class="contain certs" src="https://www.scrumalliance.org/images/badgelibraryprovider/default-album/sa-csm-300.png" alt="Scrum Master" loading="lazy" style="cursor: pointer">
+                Scrum Master
+            </a>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-xlarge-bottom">
+    <div class="uk-container">
+
+        <h1 class="uk-heading-line uk-heading-medium  uk-margin-large-bottom"><span>Education</span></h1>
+
+
+        <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://www.zju.edu.cn/_upload/tpl/03/6a/874/template874/images/logo_sm.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Zhe Jiang University</h3>
+                        </div>
+                        <p style="height: 4em">Asian Leadership Program (Exchange)</p>
+                        <p>2016 - 2016</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://1000logos.net/wp-content/uploads/2022/08/MIT-Logo.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Massachusetts Institute of Technology</h3>
+                        </div>
+                        <p style="height: 4em">Winter Independant Activity Period (Exchange)</p>
+                        <p>2017 - 2017</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://jmeducationgroup.com/wp-content/uploads/2024/07/SUTD-Logo.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Singapore University of Technology and Design</h3>
+                        </div>
+                        <p style="height: 4em">Engineering Product Development (Bachelors of Engineering)</p>
+                        <p>2014 - 2017</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://logos-download.com/wp-content/uploads/2016/12/Singapore_Management_University_logo_SMU.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Singapore Management University</h3>
+                        </div>
+                        <p style="height: 4em">Master of IT in Business (MITB)</p>
+                        <p>2020 - 2022</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:ivanleechanghsien@gmail.com">ivanleechanghsien@gmail.com</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+          <div uk-lightbox>
+            <a href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ29omWQgZ2jEROEz2yZFzQp8&amp;key=AIzaSyASbmyNs648Cn3tGYjvfHWhxynM3Z15a7Y" data-caption="Singapore"
+               data-type="iframe">Singapore</a>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+      2025
+      Ivan Lee
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
